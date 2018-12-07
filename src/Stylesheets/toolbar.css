@@ -1,0 +1,80 @@
+.MyNav {
+    position: fixed;
+    width: 100%;
+    background: #db931f;
+    height: 10%;
+    top: 0;
+    left: 0;
+}
+
+
+
+.MyNav__navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.MyNav__logo{
+    margin-left: 1rem;
+}
+
+.MyNav__items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.spacer{
+    flex:1;
+}
+
+.MyNav__items li{
+    padding: 0 1rem;
+}
+
+.MyNav__items a{
+    color:white;
+    text-decoration: none;
+}
+
+.MyNav__items a:hover,
+.MyNav__items a:active{
+    color:#fa923f;
+}
+
+
+@media (max-width:768px){
+    .MyNav__items{
+        display: none;
+    }
+    .MyNav__logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width:768px){
+    .btn-toggle{
+        display: none;
+    }
+    .MyNav__logo{
+        margin-left: 0;
+    }
+
+    .MyNav{
+        height: 10%;
+    }
+    .MyNav__logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 2.5rem;
+    }
+    .MyNav__items a {
+        font-size: 1.3rem;
+    }
+}
+
