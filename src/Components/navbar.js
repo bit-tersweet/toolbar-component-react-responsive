@@ -12,8 +12,12 @@ const MyNav = props => (
       <div className="spacer" />
       <div className="MyNav__items">
         <ul>
-          <li><a href="/">Products</a></li>
-          <li><a href="/">Users</a></li>
+          <li><a href="/Demo_1">Demo_1</a></li>
+          <li><a href="/Demo_2">Demo_2</a></li>
+          <li><a href="/Demo_3">Demo_3</a></li>
+          <li><a href="/Demo_4">Demo_4</a></li>
+          <li><a href="/SignIn">Sign in</a></li>
+          <li><button className="sign-up-btn"><a href="/GetStarted">Get started</a></button></li>
         </ul>
       </div>
     </nav>

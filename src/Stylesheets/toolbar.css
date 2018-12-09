@@ -5,8 +5,16 @@
     height: 10%;
     top: 0;
     left: 0;
+    box-shadow: 1px 0px 7px rgba(0,0,0,0.5);
 }
 
+.sign-up-btn{
+    background: transparent;
+    border-radius: 5px;
+    height: 100%;
+    border-color: aquamarine;
+    border-style: solid;
+}
 
 
 .MyNav__navigation {
@@ -41,7 +49,7 @@
 
 .MyNav__items a:hover,
 .MyNav__items a:active{
-    color:#fa923f;
+    color:black;
 }
 
 
